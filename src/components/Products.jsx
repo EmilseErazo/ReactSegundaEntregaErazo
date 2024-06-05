@@ -4,9 +4,9 @@ import { useParams, useNavigate } from "react-router-dom";
 const Products = () => {
     return(
         <>
-        <h2>Productos</h2>
-        <select >
-            <option value="" disabled selected>
+        <h2 className="titulo-producto">Productos</h2>
+        <select className="selector">
+            <option value="" disabled selected >
                 Categorias
             </option>
             <option value="marroquineria">

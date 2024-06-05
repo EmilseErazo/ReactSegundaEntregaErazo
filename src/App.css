@@ -17,15 +17,13 @@
 
 .nav-items {
   display: flex;
-
-  justify-content: space-between;
+  justify-content:space-between;
   list-style-type: none;
 
 }
 
 .container-cards {
   display: flex;
-
   justify-content: center;
   margin-top: 2rem;
   gap: 1rem;
@@ -42,4 +40,17 @@
   border-radius: 5px;
   margin: 10px;
 
+}
+
+.selector {
+  border-radius: 0.8rem;
+  border-color: rgb(231, 104, 25);
+  font-size: 1.5rem;
+  margin-top: 0;
+  justify-items: center;
+}
+
+.titulo-producto {
+  text-align: center;
+ margin: 2rem;
 }
